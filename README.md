@@ -91,7 +91,7 @@
 
   <section>
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:frolianernest.dev@gmail.com">frolianernest.dev@gmail.com</a></p>
+    <p>Email: <a href="mailto:froliernest98@gmail.com">froliernest98@gmail.com@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/FROLIANI" target="_blank">github.com/FROLIANI</a></p>
     <p>Location: Dar es Salaam, Tanzania</p>
   </section>
