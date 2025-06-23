@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frolian | Software Developer</title>
+  <meta name="description" content="Frolian - Software Developer Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #14b8a6;
+      --light: #f1f5f9;
+      --muted: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--primary);
+      color: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--muted);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #1e293b;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: var(--light);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    .projects, .skills {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.2rem;
+      background-color: var(--accent);
+      color: var(--primary);
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #0d9488;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Frolian</h1>
+    <p>Software Developer | Building modern & scalable apps</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Frolian, a passionate software developer with a focus on clean code, performance, and user experience. I build web and mobile solutions that solve real problems and empower users.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">JavaScript / Vue / Angular</div>
+      <div class="card">PHP / Laravel / Node.js</div>
+      <div class="card">MySQL / PostgreSQL / MongoDB</div>
+      <div class="card">Docker / Git / CI/CD</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Nyumba Smart</h3>
+        <p>Mobile-first property booking platform built with Flutter and Laravel.</p>
+        <a href="#" class="button">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Fundi Services</h3>
+        <p>A handyman booking app with real-time notifications and admin dashboards.</p>
+        <a href="#" class="button">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Pension Claim System</h3>
+        <p>Secure Laravel platform for claim submission and review workflows.</p>
+        <a href="#" class="button">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out via <a href="mailto:frolian@example.com">frolian@example.com</a> or connect on GitHub.</p>
+    <a href="https://github.com/your-username" class="button" target="_blank">Visit My GitHub</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Frolian. All rights reserved.
+  </footer>
+
+</body>
+</html>
